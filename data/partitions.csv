@@ -1,0 +1,7 @@
+idx,table_offset,flags,size,payload_offset,magic,content,entropy,state
+1,0x200,0x0,0x19800,0x210,GPRO,ARM64 stage-1,6.28,明文
+2,0x19a10,0x40001,0x6a51210,0x19a20,GPRO,RTOS / ISP firmware,8.00,AES 密文
+3,0x6a6ac30,0x70002,0x93ba20,0x6a6ac40,GPRO,Linux kernel Image,6.19,明文
+4,0x73a6660,0x80003,0x3f07010,0x73a6670,hsqs,"squashfs rootfs (LZ4, 128K)",7.02,LZ4 压缩
+5,0xb2ad680,0x90002,0x5d20,0xb2ad690,GPRO,"DTB (FDT, milbeaut-tpk-evb)",3.62,明文
+6,0xb2b33b0,0xd0003,0x42f7680,0xb2b33c0,GPRS,resource pack (beeps/panel/AI license),4.92,结构化
